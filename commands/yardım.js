@@ -1,5 +1,5 @@
 const { ButtonStyle } = require('discord.js')
-const db = require("inflames.db");
+const db = require("orio.db");
 const { EmbedBuilder, ButtonBuilder, ActionRowBuilder } = require("discord.js");
 let config = require(`../config.js`)
 module.exports.run = async (client, message, args) => {
