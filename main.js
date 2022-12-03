@@ -63,12 +63,12 @@ require("./events/ready.js")
 /*=======================================================================================*/
 
 /*=======================================================================================*/
-
+let x = "TOKEN"
     /**
  * Token
  */
-client.login(process.env.token).catch(e => {
-if(!process.env.token){
+client.login(x).catch(e => {
+if(!x){
 console.log("Lütfen bir token gir")
 process.exit(0)
 }
